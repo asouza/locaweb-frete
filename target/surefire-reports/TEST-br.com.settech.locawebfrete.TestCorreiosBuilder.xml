@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="3" time="0.096" failures="0" name="br.com.settech.locawebfrete.TestCorreiosBuilder">
+  <properties>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="local/Alberto-Souza:/tmp/.ICE-unix/3623" name="env.SESSION_MANAGER"/>
+    <property value="/home/asouza/.m2/repository" name="localRepository"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="HotSpot Server Compiler" name="sun.management.compiler"/>
+    <property value="Linux" name="os.name"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/rt.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i18n.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/jsse.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/jce.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/charsets.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/classes" name="sun.boot.class.path"/>
+    <property value="/home/asouza" name="env.PWD"/>
+    <property value="089a848c972e9ab819547f574a382540-1246815823.900154-396883306" name="env.XDG_SESSION_COOKIE"/>
+    <property value="gnome" name="sun.desktop"/>
+    <property value="pt_BR.UTF-8" name="env.LANG"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="1.5.0_18-b02" name="java.runtime.version"/>
+    <property value=":0.0" name="env.DISPLAY"/>
+    <property value="asouza" name="user.name"/>
+    <property value="asouza" name="env.USER"/>
+    <property value="/bin/bash" name="env.SHELL"/>
+    <property value="/usr/lib/xulrunner-addons" name="env.MOZILLA_FIVE_HOME"/>
+    <property value="default" name="env.DESKTOP_SESSION"/>
+    <property value="/usr/local/share/:/usr/share/:/usr/share/gdm/" name="env.XDG_DATA_DIRS"/>
+    <property value="/usr/dt/lib/nls/msg/%L/%N.cat" name="env.NLSPATH"/>
+    <property value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games" name="env.PATH"/>
+    <property value="pt" name="user.language"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386" name="sun.boot.library.path"/>
+    <property value="/home/asouza/ambiente/desenvolvimento/projetos-os/.metadata/.plugins/org.maven.ide.eclipse/launches/m2conf5993977445569346998.tmp" name="classworlds.conf"/>
+    <property value="1.5.0_18" name="java.version"/>
+    <property value="" name="user.timezone"/>
+    <property value="unix:abstract=/tmp/dbus-f5Nqusi8aW,guid=136161c71095d24cfe775a874a50e650" name="env.DBUS_SESSION_BUS_ADDRESS"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="3746" name="env.SSH_AGENT_PID"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="" name="sun.cpu.isalist"/>
+    <property value="UTF-8" name="sun.jnu.encoding"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="/" name="file.separator"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="this-is-deprecated" name="env.GNOME_DESKTOP_SESSION_ID"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="default" name="env.GDMSESSION"/>
+    <property value="BR" name="user.country"/>
+    <property value="3610" name="env.GNOME_KEYRING_PID"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre" name="java.home"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="asouza" name="env.LOGNAME"/>
+    <property value="2.6.28-13-generic" name="os.version"/>
+    <property value=":" name="path.separator"/>
+    <property value="1.5.0_18-b02" name="java.vm.version"/>
+    <property value="sun.print.PSPrinterJob" name="java.awt.printerjob"/>
+    <property value="7" name="env.WINDOWPATH"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="pt_BR.UTF-8" name="env.GDM_LANG"/>
+    <property value="/home/asouza" name="user.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386/server:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/../lib/i386:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386/client:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons" name="java.library.path"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value="local" name="env.GDM_XSERVER_LOCATION"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="EMBEDDED" name="maven.home"/>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="/home/asouza/ambiente/eclipse/plugins/org.maven.ide.components.maven_embedder_2.1.0.20080530-2300/jars/plexus-classworlds-1.2-alpha-12.jar" name="java.class.path"/>
+    <property value="/usr/dt/app-defaults/%L/Dt" name="env.XFILESEARCHPATH"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="/home/asouza/ambiente/desenvolvimento/projetos-os/.metadata/.plugins/org.maven.ide.eclipse/workspacestate.properties" name="m2eclipse.workspace.state"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="/etc/gtk/gtkrc:/home/asouza/.gtkrc-1.2-gnome2" name="env.GTK_RC_FILES"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="/home/asouza" name="env.HOME"/>
+    <property value="/home/asouza/ambiente/desenvolvimento/projetos-os/locaweb-frete/target/test-classes:/home/asouza/ambiente/desenvolvimento/projetos-os/locaweb-frete/target/classes:/home/asouza/.m2/repository/junit/junit/4.4/junit-4.4.jar:/home/asouza/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar:/home/asouza/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxws/2.2.2/cxf-rt-frontend-jaxws-2.2.2.jar:/home/asouza/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar:/home/asouza/.m2/repository/org/apache/geronimo/specs/geronimo-jaxws_2.1_spec/1.0/geronimo-jaxws_2.1_spec-1.0.jar:/home/asouza/.m2/repository/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.jar:/home/asouza/.m2/repository/org/apache/geronimo/specs/geronimo-ws-metadata_2.0_spec/1.1.2/geronimo-ws-metadata_2.0_spec-1.1.2.jar:/home/asouza/.m2/repository/asm/asm/2.2.3/asm-2.2.3.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-api/2.2.2/cxf-api-2.2.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-common-utilities/2.2.2/cxf-common-utilities-2.2.2.jar:/home/asouza/.m2/repository/org/springframework/spring-core/2.5.5/spring-core-2.5.5.jar:/home/asouza/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/asouza/.m2/repository/org/springframework/spring-beans/2.5.5/spring-beans-2.5.5.jar:/home/asouza/.m2/repository/org/springframework/spring-context/2.5.5/spring-context-2.5.5.jar:/home/asouza/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/asouza/.m2/repository/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.jar:/home/asouza/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar:/home/asouza/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar:/home/asouza/.m2/repository/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.jar:/home/asouza/.m2/repository/org/apache/ws/commons/schema/XmlSchema/1.4.5/XmlSchema-1.4.5.jar:/home/asouza/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/asouza/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.8/wstx-asl-3.2.8.jar:/home/asouza/.m2/repository/org/apache/neethi/neethi/2.0.4/neethi-2.0.4.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-common-schemas/2.2.2/cxf-common-schemas-2.2.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-core/2.2.2/cxf-rt-core-2.2.2.jar:/home/asouza/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.9/jaxb-impl-2.1.9.jar:/home/asouza/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.jar:/home/asouza/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.3/FastInfoset-1.2.3.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-bindings-soap/2.2.2/cxf-rt-bindings-soap-2.2.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-tools-common/2.2.2/cxf-tools-common-2.2.2.jar:/home/asouza/.m2/repository/javax/xml/soap/saaj-api/1.3/saaj-api-1.3.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-databinding-jaxb/2.2.2/cxf-rt-databinding-jaxb-2.2.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-bindings-xml/2.2.2/cxf-rt-bindings-xml-2.2.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-frontend-simple/2.2.2/cxf-rt-frontend-simple-2.2.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-ws-addr/2.2.2/cxf-rt-ws-addr-2.2.2.jar:/home/asouza/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/1.3.2/saaj-impl-1.3.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-transports-http-jetty/2.2.2/cxf-rt-transports-http-jetty-2.2.2.jar:/home/asouza/.m2/repository/org/apache/cxf/cxf-rt-transports-http/2.2.2/cxf-rt-transports-http-2.2.2.jar:/home/asouza/.m2/repository/org/springframework/spring-web/2.5.5/spring-web-2.5.5.jar:/home/asouza/.m2/repository/org/mortbay/jetty/jetty/6.1.18/jetty-6.1.18.jar:/home/asouza/.m2/repository/org/mortbay/jetty/jetty-util/6.1.18/jetty-util-6.1.18.jar:/home/asouza/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar:/home/asouza/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar:/home/asouza/.m2/repository/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.2/geronimo-servlet_2.5_spec-1.2.jar:" name="surefire.test.class.path"/>
+    <property value="/tmp" name="java.io.tmpdir"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386/server:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/../lib/i386:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386/client:/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons" name="env.LD_LIBRARY_PATH"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="/tmp/keyring-LdkQa7/socket.ssh" name="env.SSH_AUTH_SOCK"/>
+    <property value="sun.awt.X11GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="i386" name="os.arch"/>
+    <property value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.18/jre/lib/ext" name="java.ext.dirs"/>
+    <property value="/home/asouza/ambiente/desenvolvimento/projetos-os/locaweb-frete" name="user.dir"/>
+    <property value="/home/asouza/.Xauthority" name="env.XAUTHORITY"/>
+    <property value="canberra-gtk-module" name="env.GTK_MODULES"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Java HotSpot(TM) Server VM" name="java.vm.name"/>
+    <property value="/home/asouza/ambiente/desenvolvimento/projetos-os/locaweb-frete" name="basedir"/>
+    <property value="true" name="maven.mode.standalone"/>
+    <property value="/tmp/orbit-asouza" name="env.ORBIT_SOCKETDIR"/>
+    <property value="asouza" name="env.USERNAME"/>
+    <property value="UTF-8" name="file.encoding"/>
+    <property value="/tmp/keyring-LdkQa7/socket" name="env.GNOME_KEYRING_SOCKET"/>
+    <property value="/tmp/seahorse-S3ZEBI/S.gpg-agent:3769:1" name="env.GPG_AGENT_INFO"/>
+    <property value="1.5" name="java.specification.version"/>
+  </properties>
+  <testcase classname="br.com.settech.locawebfrete.TestCorreiosBuilder" time="0.036" name="testFreteComTransporteQuePrecisaDeVolume"/>
+  <testcase classname="br.com.settech.locawebfrete.TestCorreiosBuilder" time="0.022" name="testBuildCorreios"/>
+  <testcase classname="br.com.settech.locawebfrete.TestCorreiosBuilder" time="0.002" name="testBuildCorreiosComPesosEVolumesExatos"/>
+</testsuite>
